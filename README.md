@@ -16,12 +16,12 @@ Para ejecutar este proyecto, asegúrate de tener Node.js y npm instalados en tu 
 3. Ejecuta el siguiente comando para instalar las dependencias necesarias:
 
 
-###npm install
+### npm install
 
 
 4. Una vez que se completen las instalaciones, ejecuta el siguiente comando para iniciar la aplicación:
 
-###npm start
+### npm start
 
 
 Esto abrirá la aplicación en tu navegador.
