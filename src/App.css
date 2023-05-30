@@ -1,0 +1,114 @@
+/*.App {
+  text-align: center;
+}*/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#root{
+  background-color: #282c34!important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Industry;
+  text-align: center;
+}
+
+.app{
+  background-color: #282c34!important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Industry;
+  text-align: center;
+}
+
+.table{
+  background-color: #282c34!important;
+  color: white!important;
+  --bs-table-bg:  #282c34!important;
+  --bs-table-color: white!important;
+}
+
+.th{
+  color: white!important;
+}
+
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.customCard {
+  background-color: unset !important;
+  font-family: Industry;
+  margin-top: 10%;
+}
+
+.customCardBody {
+  margin-bottom: 20px;
+}
+
+.userToggleBtn {
+  padding-right: 20px;
+}
+
+.thead{color: darkgrey!important;
+  background-color: #282c34!important;
+  --bs-table-bg: #526791!important;
+}
+
+.tbody {
+color: darkgrey;
+background-color: #282c34!important;
+}
+
+
+.col {
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+
+
+}
